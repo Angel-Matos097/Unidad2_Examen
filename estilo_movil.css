@@ -1,0 +1,214 @@
+@media screen and (max-width: 480px) {
+  .ancho {
+    max-width: 80%;
+    margin: 0 auto;
+    /* border: 1px blue solid; */
+  }
+
+  .ancho2 {
+    max-width: 92%;
+    margin: 0 auto;
+  }
+
+  .header_superior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    /* border: 1px red solid; */
+  }
+
+  .header_superior .superior_izquierda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 50px;
+    /* border: 1px red solid; */
+
+    display: none;
+  }
+
+  .header_inferior {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 10px;
+    /* border: 1px red solid; */
+  }
+
+  .header_inferior ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 0px;
+    row-gap: 15px;
+    /* border: 1px red solid; */
+    list-style: none;
+    margin-right: 0px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header_inferior ul li .Btn_inicio {
+    border: 0px white solid;
+    padding: 10px 25px 10px 25px;
+  }
+
+  .Seccion1 {
+    display: none;
+  }
+
+  .Seccion2 {
+    margin-top: 35px;
+    /* border: 1px red solid; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 15px;
+    /* border: 1px red solid; */
+
+    box-shadow: none;
+  }
+
+  .Seccion2 article {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+    align-content: center;
+    row-gap: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+
+    border-right: 1px #ccc solid;
+    transition: all 0.5s;
+
+    border: 1px #ccc solid;
+
+    max-width: 75%;
+  }
+
+  .Seccion3 .texto h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-top: 50px;
+  }
+
+  .Seccion3 .texto p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Seccion3 .doctores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    column-gap: 35px;
+    row-gap: 35px;
+    /* border: 1px red solid; */
+  }
+
+  .Seccion3 .doctores article {
+    max-width: 65%;
+    position: relative;
+  }
+
+  .Seccion3 .doctores article figure img {
+    width: 100%;
+    border: 1px #2ea4ee solid;
+    display: block;
+
+    border-bottom: 0px;
+  }
+
+  .Seccion3 .doctores article .texto_article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    border: 0px #2ea4ee solid;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+
+    border-left: 1px #2ea4ee solid;
+    border-right: 1px #2ea4ee solid;
+    border-bottom: 1px #2ea4ee solid;
+  }
+
+  .Seccion4 {
+    /* border: 1px red solid; */
+    margin-top: 80px;
+  }
+
+  .Seccion4 .texto p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Seccion4 .departamentos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 30px;
+    row-gap: 100px;
+    /* border: 1px red solid; */
+  }
+
+  .Seccion4 .texto .barra_azul {
+    width: 100px;
+    height: 10px;
+    background-color: #2ea4ee;
+    margin-bottom: 100px;
+  }
+
+  .Seccion5 {
+    margin-top: 60px;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    /* border: 1px red solid; */
+  }
+
+  .Seccion5 article p {
+    max-width: 90%;
+  }
+}
